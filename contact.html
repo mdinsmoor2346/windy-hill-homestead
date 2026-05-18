@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<!-- This website template was created by: Student's First Name Student's Last Name -->
+<html lang="en">
+<head>
+	<title>Contact Us - Location | Windy Hill Homestead</title>
+	<meta charset="utf-8">
+    <link rel="stylesheet" href="css/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Stay connected with us! Questions are welcome.">
+    <link href="https://fonts.googleapis.com/css?family=Francois+One|Roboto+Slab&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kumar+One&display=swap" rel="stylesheet">
+	<link rel="shortcut icon" href="images/favicon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="images/favicon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon.png">
+	<link rel="icon" sizes="192x192" href="images/favicon.png">
+</head>
+<body>
+
+    <!-- Skip to Content Link -->
+    <a class="skip" href="#content">Skip to Content</a>
+
+	<div id="container">
+        
+        <!-- Mobile Nav -->
+        <nav class="mobile-nav">
+            <div id="menu-links">
+                <a href="index.html">Home</a>
+                <a href="fauna.html">Fauna</a>
+                <a href="flora.html">Flora</a>
+                <a href="orchard.html">Orchard</a>
+                <a href="contact.html">Contact Us</a>
+            </div>
+            <a class="menu-icon" onclick="hamburger()">
+                <div>&#9776;</div>
+            </a>
+        </nav>
+
+		<!-- Use the header area for the website name or logo -->
+		<header id="ffc-logo">
+			<a href="index.html"><img src="images/whh_logo.svg" alt="Windy Hill Homestead logo" height="220" width="297"></a>
+		</header>
+		
+		<!-- Tablet, Desktop Nav -->
+		<nav class="tablet-desktop">
+			<ul>
+                <li><a href="index.html">Home</a></li> 
+                <li><a href="fauna.html">Fauna</a></li> 
+                <li><a href="flora.html">Flora</a></li> 
+                <li><a href="orchard.html">Orchard</a></li> 
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+		</nav>
+
+        <!-- Contact Hero Image -->
+        <div id="hero">
+            <img src="images/white_mountians.jpg" alt="White Mountians">
+        </div>
+		
+		<!-- Use the main area to add the main content of the webpage -->
+		<main id="content" class="grid">
+		
+			<div id="contact">
+			
+				<h2>Visiting the White Mountians? Say Howdy!</h2> 					
+                <h4 class="mobile tel-link"><a href="tel:9282748857">(928) 274-8857</a></h4>
+                <h4 class="tablet-desktop tel-num">(928) 274-8857</h4>
+				<h4>Email us: <a href="mailto:windyhill@homestead.us" class="contact-email-link">windyhill@homestead.us</a></h4>
+				<h4>Visit us at: 1688 Main St. S, Snowflake, AZ 85937</h4>
+
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2340.506189314153!2d-110.0870345979971!3d34.486882101876276!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872f3c7be7b83551%3A0xe8f28397d0318953!2s1688%20Main%20St%20S%2C%20Snowflake%2C%20AZ%2085937!5e1!3m2!1sen!2sus!4v1779076006084!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" width="600" height="450" allowfullscreen class="map"></iframe>
+			
+			</div>
+            
+            <div id="form">
+                
+                <h2>Questions? Get in touch!</h2> 
+            
+                <form class="form-grid"><!-- Start Form -->
+                    
+                    <fieldset>
+                        <legend>Customer Information</legend>
+                        <label for="fName">First Name:</label>
+                        <input type="text" name="fName" id="fName" required>
+
+                        <label for="lName">Last Name:</label>
+                        <input type="text" name="lName" id="lName" required> 
+                        
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" id="email" required>
+                        
+                        <label for="phone">Phone:</label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </fieldset>
+                    
+                    <fieldset>
+                        <legend>Additional Information</legend>
+                        <p>I would like more information about:</p>
+                            
+                        <label for="grpfit"><input type="checkbox" name="interest" id="grpfit" value="Group Fitness">U-Pick Orchard Days</label>
+
+                        <label for="prtrain"><input type="checkbox" name="interest" id="prtrain" value="Personal Training">Apprenticeship</label>
+
+                        <label for="nutr"><input type="checkbox" name="interest" id="nutr" value="Nutrition">Hatching eggs</label>
+                    </fieldset>
+                    
+                    <fieldset>
+                            <legend>Referral Source</legend>
+                            <label for="reference">How did you find us?</label>
+                            <select name="reference" id="reference">
+                                <option value="ad">Advertisement</option>
+                                <option value="friend">Friend</option>
+                                <option value="google">Google</option>
+                                <option value="social">Social Media</option>
+                                <option value="other">Other</option>
+                            </select>
+
+                            <label for="questions">Questions?</label>
+                            <textarea id="questions" name="questions" rows="5" cols="35"></textarea>
+                        
+                    </fieldset>
+                    
+                    <input type="submit" id="submit" value="Submit" class="btn">
+                    
+                </form>
+            
+            </div>
+			
+		</main>
+		
+		<!-- Use the footer area to add webpage footer content -->
+		<footer>
+
+            <div class="copyright">
+			<p>&copy; Copyright 2026. All Rights Reserved.</p>
+			<p><a href="mailto:9282748857">windyhill@homestead.us</a></p>
+            </div>
+
+            <div class="social">
+                <a href="https://www.facebook.com/fwdfitclub" target="blank"><img src="images/facebook-logo.png" alt="black and white Facebook logo"></a>
+                <a href="https://www.twitter.com/fwdfitclub" target="blank"><img src="images/twitter-logo.png" alt="black and white Twitter logo"></a>
+            </div>
+
+        </footer>
+	
+	</div>
+    
+    <script src="scripts/script.js"></script>
+
+</body>
+</html>
