@@ -236,7 +236,7 @@ form #submit {
 /* Style rules for footer content */
 footer .copyright {
     font-size: 1.25em;
-    text-align: left;
+    text-align: center;
     color: #fff;
     padding: 2% 4%;
     float: left;
